@@ -1,0 +1,28 @@
+GET http://localhost:3001/users
+
+###
+
+GET http://localhost:3001/users/6516c9f714d29774a8721a8a
+
+###
+
+POST http://localhost:3001/users
+Content-Type: application/json
+
+{
+    "name" : "David",
+    "eMail" : "justincalle@outlook.de",
+    "password" : "123123"
+}
+
+###
+
+PATCH http://localhost:3001/users/6516c9f714d29774a8721a8a
+Content-Type: application/json
+
+{
+    "name": "Hercules"
+}
+
+###
+DELETE http://localhost:3001/users/
