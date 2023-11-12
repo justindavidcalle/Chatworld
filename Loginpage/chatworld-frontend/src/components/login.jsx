@@ -29,7 +29,7 @@ const Login = ({setToken}) => {
           password
         });
         setToken(token);
-      }
+    }
 
     return (
     <>
